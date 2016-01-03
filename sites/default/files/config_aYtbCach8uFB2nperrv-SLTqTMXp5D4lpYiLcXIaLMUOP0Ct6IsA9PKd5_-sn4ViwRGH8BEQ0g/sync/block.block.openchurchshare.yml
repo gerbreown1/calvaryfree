@@ -1,0 +1,22 @@
+uuid: 14e086df-ab8c-4b21-ac12-18b222f9b3a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - openchurch
+  theme:
+    - openchurch_theme
+id: openchurchshare
+theme: openchurch_theme
+region: sidebar_second
+weight: 4
+provider: null
+plugin: openchurch_share
+settings:
+  id: openchurch_share
+  label: 'OpenChurch Share'
+  provider: openchurch
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }

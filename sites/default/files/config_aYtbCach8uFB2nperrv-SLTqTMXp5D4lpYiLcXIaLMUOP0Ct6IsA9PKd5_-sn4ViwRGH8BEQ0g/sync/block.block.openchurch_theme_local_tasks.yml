@@ -1,0 +1,20 @@
+uuid: 4420666c-3a05-4b8a-b500-b710a848fffb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openchurch_theme
+id: openchurch_theme_local_tasks
+theme: openchurch_theme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

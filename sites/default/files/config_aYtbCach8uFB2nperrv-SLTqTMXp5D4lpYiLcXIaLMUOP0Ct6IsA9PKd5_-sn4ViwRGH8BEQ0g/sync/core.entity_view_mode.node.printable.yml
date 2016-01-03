@@ -1,0 +1,13 @@
+uuid: 387e9dde-6987-472c-ba00-ee1ab867d413
+langcode: en
+status: false
+dependencies:
+  enforced:
+    module:
+      - printable
+  module:
+    - node
+id: node.printable
+label: printable
+targetEntityType: node
+cache: true

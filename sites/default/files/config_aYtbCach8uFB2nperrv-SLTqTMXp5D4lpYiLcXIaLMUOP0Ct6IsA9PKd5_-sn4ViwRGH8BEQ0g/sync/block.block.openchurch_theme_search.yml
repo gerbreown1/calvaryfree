@@ -1,0 +1,20 @@
+uuid: 7b91e2b8-d82f-4673-9300-ccf58a3639bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - openchurch_theme
+id: openchurch_theme_search
+theme: openchurch_theme
+region: footer
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

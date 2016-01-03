@@ -1,0 +1,20 @@
+uuid: 5d66e45c-7a4a-454a-9200-f1b2531a1d8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - openchurch_theme
+id: openchurch_theme_help
+theme: openchurch_theme
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

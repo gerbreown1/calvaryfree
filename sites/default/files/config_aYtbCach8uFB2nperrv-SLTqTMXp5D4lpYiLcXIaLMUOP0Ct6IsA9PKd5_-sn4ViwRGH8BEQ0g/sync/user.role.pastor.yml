@@ -1,0 +1,9 @@
+uuid: 7e375ac8-c6cd-45c3-ae00-cde823049d74
+langcode: en
+status: true
+dependencies: {  }
+id: pastor
+label: Pastor
+weight: 3
+is_admin: null
+permissions: {  }

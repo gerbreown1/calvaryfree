@@ -1,0 +1,10 @@
+uuid: 5ede466d-5342-4b32-9700-c936ee516b0e
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+id: user.full
+label: 'User account'
+targetEntityType: user
+cache: true

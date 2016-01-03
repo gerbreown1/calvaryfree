@@ -1,0 +1,18 @@
+uuid: e288b27e-4489-4946-9d05-5bc40d95a007
+langcode: en
+status: true
+dependencies:
+  theme:
+    - openchurch_theme
+id: openchurch_theme_local_actions
+theme: openchurch_theme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

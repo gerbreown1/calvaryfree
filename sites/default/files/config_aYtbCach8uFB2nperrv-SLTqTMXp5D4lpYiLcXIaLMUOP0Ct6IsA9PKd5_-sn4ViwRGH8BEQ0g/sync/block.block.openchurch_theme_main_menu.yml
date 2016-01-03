@@ -1,0 +1,24 @@
+uuid: 1f47c9d5-7472-458e-9700-e8b4f954a492
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - openchurch_theme
+id: openchurch_theme_main_menu
+theme: openchurch_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: d3749653-5785-4033-8b63-990e0eac8b10
+langcode: en
+status: true
+dependencies: {  }
+name: 'Sermon Topic'
+vid: sermon_topic
+description: 'This is a list of sermon topics.'
+hierarchy: 0
+weight: 0

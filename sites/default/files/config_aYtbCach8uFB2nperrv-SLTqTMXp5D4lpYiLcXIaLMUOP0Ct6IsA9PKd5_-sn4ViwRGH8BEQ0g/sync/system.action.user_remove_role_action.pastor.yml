@@ -1,0 +1,14 @@
+uuid: 27e87862-b8d6-477d-b008-8d24f054e45b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pastor
+  module:
+    - user
+id: user_remove_role_action.pastor
+label: 'Remove the Pastor role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pastor

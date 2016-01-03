@@ -1,0 +1,11 @@
+page:
+  front: /front
+  403: ''
+  404: ''
+uuid: eea0be4d-b449-46aa-a058-8869a4701ea2
+name: 'Calvary Free Lutheran Church'
+langcode: en
+default_langcode: en
+mail: gbrown@calvaryfree.org
+slogan: 'Eben Jct., MI 49825'
+mail_notification: ''

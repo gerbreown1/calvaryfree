@@ -1,0 +1,24 @@
+uuid: 9a8e20ce-04f1-425f-a000-c02d94468797
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - openchurch_theme
+id: openchurch_theme_account_menu
+theme: openchurch_theme
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

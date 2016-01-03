@@ -1,0 +1,27 @@
+uuid: a115a585-abf8-4d56-b02c-449db4df96a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_staff_type
+    - node.type.staff
+    - taxonomy.vocabulary.staff_type
+id: node.staff.field_staff_type
+field_name: field_staff_type
+entity_type: node
+bundle: staff
+label: 'Staff Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      staff_type: staff_type
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

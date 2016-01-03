@@ -1,0 +1,14 @@
+uuid: 84a236dc-5060-46e7-bc00-e17268b25522
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pastor
+  module:
+    - user
+id: user_add_role_action.pastor
+label: 'Add the Pastor role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pastor
